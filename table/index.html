@@ -1,0 +1,159 @@
+<!-- 
+Kelly Chiriboga
+DIG 2500C -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chapter 8: Table Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: rgb(13, 2, 37);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            background: rgb(250, 248, 244);
+            color: #48abe0;
+            text-align: center;
+            border: 3px solid rgb(231, 220, 198);
+            outline: 5px solid #eee9de;
+            box-shadow: 0 0 70px 20px #fff6d3;
+            overflow: hidden;
+            white-space: nowrap;
+            transition: all .5s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.1);
+        }
+
+        .table {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+
+        caption {
+            caption-side: top;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            font-family: 'Gambetta', serif;
+            letter-spacing: -3px;
+            transition: 700ms ease;
+            font-variation-settings: "wght" 311;
+            margin-bottom: 0.8rem;
+            outline: none;
+            text-align: center;
+            color: rgb(145, 110, 39)
+        }
+
+        h1:hover {
+            font-variation-settings: "wght" 582;
+            letter-spacing: 1px;
+        }
+
+        table img {
+            width: 125px;
+            height: 125px;
+            margin-left: .3em;
+            margin-right: .3em;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <table class="table table-hover table-responsive">
+            <caption>
+                <h1>New 7 Wonders of the World</h1>
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Wonder</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Instance Of</th>
+                    <th scope="col">Coordinates</th>
+                    <th scope="col">Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Great wall of China</th>
+                    <td><img src="images/great-wall.jpeg" alt="The Great Wall of China"></td>
+                    <td>China</td>
+                    <td>Fortification</td>
+                    <td>40.4319° N, 116.5704° E</td>
+                    <td>700 BC</td>
+                </tr>
+                <tr>
+                    <th scope="row">Petra</th>
+                    <td><img src="images/petra.jpg" alt="Petra"></td>
+                    <td>Ma'an, Jordan</td>
+                    <td>Archaeological city</td>
+                    <td>30.3285° N, 35.4444° E</td>
+                    <td>312 BC</td>
+                </tr>
+                <tr>
+                    <th scope="row">The Colosseum</th>
+                    <td><img src="images/colosseum.jpg" alt="The Colosseum"></td>
+                    <td>Rome, Italy</td>
+                    <td>Amphitheatre</td>
+                    <td>41.8902° N, 12.4922° E</td>
+                    <td>80 AD</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Chichén Itzá</th>
+                    <td><img src="images/chichen-itza.jpg" alt="Chichén Itzá"></td>
+                    <td>Yucatán, Mexico</td>
+                    <td>Pyramid</td>
+                    <td>20.6843° N, 88.5678° W</td>
+                    <td>600 AD</td>
+                </tr>
+                <tr>
+                    <th scope="row">Machu Picchu</th>
+                    <td><img src="images/machu-picchu.jpg" alt="Machu Picchu"></td>
+                    <td>Cusco Region, Peru</td>
+                    <td>Inca Citadel</td>
+                    <td>13.2263° S, 72.4973° W</td>
+                    <td>1450 AD</td>
+                </tr>
+                <tr>
+                    <th scope="row">Taj Mahal</th>
+                    <td><img src="images/taj-mahal.jpg" alt="Taj Mahal"></td>
+                    <td>Agra, India</td>
+                    <td>Marble Mausoleum</td>
+                    <td>27.1751° N, 78.0421° E</td>
+                    <td>1643 AD</td>
+                </tr>
+                <tr>
+                    <th scope="row">Christ, "The Redeemer"</th>
+                    <td><img src="images/christ-the-redeemer.jpg" alt="Christ, The Redeemer"></td>
+                    <td>Rio de Janeiro, Brazil</td>
+                    <td>Art Deco Statue</td>
+                    <td>22.9519° S, 43.2105° W</td>
+                    <td>1931 AD</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
