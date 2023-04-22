@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: #fff2e7 url(images/blackgoosebg.png) no-repeat center 100px fixed;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rock Salt', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(27, 26, 26);
+}
+
+a:focus, a:hover {
+    color: rgb(121, 38, 0);
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.menuheader {
+    margin-top: 20px;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+    background: url(images/purpledot.png) center top repeat-x;
+    background:
+        url(images/purpledot.png) left top repeat-y,
+        url(images/purpledot.png) right top repeat-y,
+        url(images/gooseshadow.png) 90% bottom no-repeat;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
+
+/* Menu Page */
+
+.menuheader a:link, .menuitems a:link {
+    color: #939;
+}
+
+.menuheader a:visited, .menuitems a:visited {
+    color: #937393;
+}
+
+.menuheader a:focus,
+.menuheader a:hover, .menuitems a:focus, .menuitems a:hover {
+    color: #c700f2;
+    background-color: #fff;
+}
+
+.menuheader a:active, .menuitems a:active {
+    color: #f0f;
+    background-color: #fff;
+}
+
+.menuheader h1 {
+    font: bold 1.5em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: .05em .05em .1em lightslategray;
+    color: #939;
+    border-bottom: none;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #c60;
+}
+
+dt {
+    font-weight: bold;
+}
+
+strong {
+    font-style: italic;
+}
+
+nav ul, header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rgimg {
+    max-width: 100%;
+}
+
+#info p {
+    font-style: italic;
+}
+
+.price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+p.warning,
+sup {
+    font-size: small;
+}
+
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+.menuitems h2+p {
+    text-align: center;
+    font-style: italic;
+}
+
+.order {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order img {
+    margin-top: 30px;
+    border-color: black;
+    border-style: double;
+}
+
+footer {
+    border-top: 2px solid black;
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.menufooter {
+    border-top: none;
+    padding-top: 1em;
+    text-align: left;
+}
+
+/* Jen's Kitchen */
+
+small {
+    color: #999;
+}
+
+.jenskitch h1, .jenskitch h2 {
+    text-align: left;
+}
+
+.jenskitch img {
+    margin-top: 30px;
+}
+
+.jenskitch a:link {
+    color: black;
+}
+
+.jenskitch a:visited {
+    color: rgb(27, 26, 26);
+}
+
+.jenskitch a:hover {
+    font-weight: bold;
+}
+
+/* Pizza Form*/
+
+.pizza ol,
+.pizza ul {
+    list-style-type: none;
+}
+
+.pizza li {
+    padding: 2px 0px;
+}
+
+.pizza legend {
+    font-weight: bold;
+    color: #94482c;
+}
+
+.pizza fieldset {
+    border-color: #ca9785;
+    border-style: dotted;
+    width: max-content;
+    margin: 5px;
+}
+
+.pizza .button {
+    background-color: #3388af;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    margin: 0px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.pizza .buttons a:hover,
+.pizza .button:hover {
+    transform: scale(1.1);
+}
+
+/* Cooking with Daniel */
+
+.cooking {
+    float: right;
+    margin: 0 12px;
+}
