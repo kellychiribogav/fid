@@ -1,0 +1,127 @@
+/* Kelly Chiriboga */
+
+/***** GENERAL RULES *****/
+
+body {
+    margin: 0 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(-45deg, #ffd9cd, #fdd4e4, #bbedff, #bbf8ea);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+h1 {
+    color: #210a46;
+    text-align: center;
+    font-family: 'Homemade Apple', 'Brush Script MT', cursive;
+    border-bottom: 3px solid #210a46;
+    font-size: 3em;
+}
+
+h3 {
+    color: #701d57;
+    text-align: left;
+}
+
+p,
+li {
+    font-size: medium;
+    text-align: justify;
+}
+
+/* Pseudo-Classes */
+
+a:link {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+    color: #680f6b;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 30px;
+    border-top: 3px solid #210a46;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+/***** INDEX PAGE *****/
+
+div {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.skills {
+    background-color: aliceblue;
+
+}
+
+.skills .row {
+    margin: 8px;
+}
+
+.portfolio {
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.portfolio img {
+    border: 2px solid white;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/***** PORTFOLIO PAGES *****/
+
+.container embed {
+    margin-top: 20px;
+    border: 8px solid white;
+    max-width: 100%;
+}
+
+/* Animations */
+.container2 embed {
+    margin-top: 20px;
+    border: none;
+    max-width: 100%;
+}
