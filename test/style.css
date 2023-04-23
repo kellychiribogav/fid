@@ -1,0 +1,91 @@
+body {
+  font-family: "Lexend Deca";
+}
+
+/****** HOME PAGE ******/
+
+.home {
+  background-color: rgb(2, 18, 24);
+}
+
+.home header {
+  height: 120px;
+}
+
+/* Home Navigation */
+.home .navigation {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.home .navbar-right {
+  float: right;
+  padding-top: 1%;
+  padding-right: 9%;
+  padding-left: 1%;
+}
+
+.home .navbar-right a {
+  text-decoration: none;
+  padding: 8px;
+  color: #fff;
+  font-family: Arial;
+  font-weight: 900;
+}
+
+.home .navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.home .navbar-logo {
+  padding-left: 10%;
+}
+
+/* Video Background */
+
+.video-container {
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.video-bg {
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.5;
+}
+
+.intro {
+  margin: auto;
+  padding: 80px 0;
+  width: 60%;
+  text-align: justify;
+  color: white;
+}
+
+/* Introduction */
+
+.intro p {
+  font-size: large;
+}
+
+.intro span {
+  color: rgb(210, 245, 157);
+}
+
+.welcome {
+  font-family: "Homemade Apple";
+  font-size: 3em;
+  text-align: center;
+  margin: 30px 0;
+}
